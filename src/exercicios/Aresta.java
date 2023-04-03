@@ -8,9 +8,7 @@ public class Aresta {
 	private Vertice origem;
 	private Vertice destino;
 
-
 	public String toString(){
-		return "("+ origem + "," + destino + ")";
+		return "("+ origem.getNome() + "," + destino.getNome() + ")";
 	}
-
 }
